@@ -1,5 +1,5 @@
 import * as path from "path";
-import {readdir, unlink} from "fs-extra";
+import {readdir} from "fs-extra";
 import sharp = require("sharp");
 
 let doIt = async ()=> {
@@ -18,11 +18,8 @@ let doIt = async ()=> {
         let newFilePath = path.resolve(assetsPath, newFileName)
 
         await sharp(filePath)
-            .resize(1024, 768)
             .jpeg()
             .toFile(newFilePath)
-
-        await unlink(filePath)
     }
 }
 
