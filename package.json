@@ -1,0 +1,22 @@
+{
+  "name": "apolkingg8",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/apolkingg8/apolkingg8.git",
+  "author": "apolkingg8 <apolkingg8@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "toJpeg": "ts-node script/toJpeg.ts"
+  },
+  "dependencies": {
+    "fs-extra": "^9.0.1",
+    "sharp": "^0.27.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.6",
+    "@types/sharp": "^0.26.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  }
+}
