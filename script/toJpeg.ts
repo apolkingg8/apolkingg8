@@ -18,6 +18,9 @@ let doIt = async ()=> {
         let newFilePath = path.resolve(assetsPath, newFileName)
 
         await sharp(filePath)
+            .resize(720, 720, {
+                fit: "inside",
+            })
             .jpeg()
             .toFile(newFilePath)
     }
