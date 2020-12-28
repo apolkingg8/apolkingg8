@@ -6,7 +6,7 @@ Hi, I'm Eddie Hsu, an indie developer in Taiwan. 8+ year experiences, skilled in
 * Medium: https://medium.com/@kingapol
 
 ## Skill
-List some of my skilled/preferred stuff. You can find more `Skill tags` in above section.
+List some of my skilled/preferred stuff. Find more `Skill tags` in above section.
 * **Core pick**: React, MobX, TypeScript, Rust
 * **Front-end**: Next.js, Material-ui
 * **Back-end**: Express, GraphQL, TypeORM
@@ -17,7 +17,7 @@ List some of my skilled/preferred stuff. You can find more `Skill tags` in above
 ## Job
 
 ### Early career (2011 ~ 2014)
-I like to try new things and take the challenge, so I tried many domains. DB analysis, back-end, front-end, mobile, and Smart-TV apps.
+I like to try new things and take the challenge, so I tried many domains.
 
 `SmartTV(Samsung & Panasonic)`, `MySQL`, `jQuery, Backbone and other classic stuff`
 
@@ -61,7 +61,7 @@ A markdown to medium converter & editor.
 * Back-end: `Express`, `GCP(Cloud Run, Cloud function, Cloud SQL)`
 
 ### [Tasmap](https://tasmap.app)
-An interactive story map. Beautiful design, rich text editor and customize sharing.
+An interactive story map. Beautiful design, rich text editor and customizable sharing.
 ![Tasmap](assets/TasmapWeb.jpeg)
 * Front-end: `Next.js`, `PWA`, `MapboxGL`, `Rendering performance(Pixi.js & Konva)`, `Rich text editor`, `Customize map tiles`
 * Back-end: `Express`, `GCP(GAE, GCE, Cloud function)`
