@@ -46,7 +46,7 @@ I love to make something. For practice skill, for the requirement from myself, t
 ### [Tiat](https://tiat.app) (2018)
 Tiat is the first software I made, a picture management software that focuses on performance and search.
 Tiat uses RocksDB as the main database, which is very fast on a large number of non-sequential reads, which also allows him to maintain performance under the million-level capacity.
-In addition, I have implemented the functions of "Search by pitcure" and "Draw to search" in Tiat, allowing users to find the pictures they want with only a dim impression.
+In addition, I have implemented the functions of "Similar image" and "Draw to search" in Tiat, allowing users to find the pictures they want with only a dim impression.
 Tiat has been developed for more than two years. Although the update is suspended due to the development of v2, thousands of users are still using it every month.
 
 ![Tiat](assets/TiatWeb.jpeg)
@@ -82,10 +82,10 @@ Markdown editor | Connect with GitHub | Publish to Medium
 * Back-end: `Express`, `GCP(Cloud Run, Cloud function, Cloud SQL)`
 
 ### [Tasmap](https://tasmap.app) (2019~2020)
-Tasmap是一個可客製化的故事地圖。你可以客製化屬於自己的地圖，編寫自己的故事，並且讓地圖跟故事之間互動。
-在2020年發布時，Tasmap在Product Hunt獲得了很高的評價。
-即使受到COVID-19的影響，Tasmap在過去的一年間，依然為來自數十個國家、數千名的旅行者、在地嚮導以及資料視覺化工作者們提供了一個兼具美觀與實用的故事地圖平台。
-Tasmap是我的第一個收費產品，除了金流之外，我在這之中也累積了許多關於前端效能，以及色彩設計的經驗。
+Tasmap is a customizable story map. You can customize your own map and write stories on it.
+When it was released in 2020, Tasmap was highly rated on Product Hunt.
+Even under the influence of COVID-19, Tasmap has provided a beautiful and practical map platform for thousands of travelers, local guides and data visualization workers from dozens of countries in the past year.
+Tasmap is my first paid product. In addition to payment management, I have also accumulated a lot of experience in front-end performance and color design.
 
 ![Tasmap](assets/tasmap_demo_0.webp)
 
@@ -97,15 +97,15 @@ Dark|Light|Sakura|Macha|Hokusai|Hanafuda
 * Back-end: `Express`, `GCP(GAE, GCE, Cloud function)`
 
 ### Tiat2 (2020~2021)
-Tiat2是一個全新的版本，結合了v1的使用者回饋，在UX設計以及許多方面都更加優化。
-搜尋的部分參考了PackPanel中的AI設計經驗，強化了分類及以圖搜圖的功能，同時也加入了語意分析來強化文字搜尋的部分。
-在Tiat2中，我把效能繁重的部分以Rust或WASM模組取代，讓整體的效能更上一層樓。
-此外，Tiat2是以TDD的方式開發，雖然增加了許多的開發時間，但也增進了穩定性。
+Tiat2 is a brand-new version of Tiat. With the user feedback from v1 and the experience of other products, it is more optimized in UX design, performance and many ways.
+As the matter of experience of PackPanel, the "Similar image" and "Draw to search" feature has been improved a lot.
+In Tiat2, I replaced the heavy-loading JS modules with Rust and WASM. It's improved 3x ~ 10x performance.
+In addition, Tiat2 is developed in a TDD way, although it increases some development time, it also makes it very stable and reliable.
 
 * App: `Electron`, `Rust/Rust-wasm`, `TypeORM`, `Image recognition`, `File similarity`
 * Service: `GCP(Web & SQL replication)`, `GH action(CI/CD)`
 
 ## Non-technical
-* 10+ years of experience in baseball. A good hitter but a terrible fielder.
+* 10+ years of experience in baseball. A good hitter but terrible fielder.
 * Tea, milk, beer, and Dr.Pepper. No coffee.
 * Love cooking.
