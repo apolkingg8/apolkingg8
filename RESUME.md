@@ -7,11 +7,11 @@ Hi, I'm Eddie Hsu, an indie developer in Taiwan. 8+ year experiences, skilled in
 
 ## Skill
 List some of my skilled/preferred stuff. Find more `Skill tags` in above section.
-* **Core pick**: React, MobX, TypeScript, Rust
-* **Front-end**: Next.js, Material-ui
-* **Back-end**: Express, GraphQL, TypeORM
-* **Cross-platform**: Electron, React Native, Tizen, WebOS
-* **Service**: Usually use GCP, some experience in AWS
+* Core pick: React, MobX, TypeScript, Rust
+* Front-end: Next.js, Material-ui
+* Back-end: Express, GraphQL, TypeORM
+* Cross-platform: Electron, React Native, Tizen, WebOS
+* Service: Usually use GCP, some experience in AWS
 
 
 ## Job
@@ -101,6 +101,8 @@ Tiat2 is a brand-new version of Tiat. With the user feedback from v1 and the exp
 As the matter of experience of PackPanel, the "Similar image" and "Draw to search" feature has been improved a lot.
 In Tiat2, I replaced the heavy-loading JS modules with Rust and WASM. It's improved 3x ~ 10x performance.
 In addition, Tiat2 is developed in a TDD way, although it increases some development time, it also makes it very stable and reliable.
+
+![Tiat](assets/tiat2_demo_0.jpeg)
 
 * App: `Electron`, `Rust/Rust-wasm`, `TypeORM`, `Image recognition`, `File similarity`
 * Service: `GCP(Web & SQL replication)`, `GH action(CI/CD)`
