@@ -43,21 +43,21 @@ Currently, I'm an indie developer, working on Tasmap & Tiat2. Check more below.
 ## Made
 I love to make something. For practice skill, for the requirement from myself, to show my ideal, or just for fun. You can check some of them on my [PH page](https://www.producthunt.com/@eddiehsu/made).
 
-### [Tiat](https://tiat.app)
-Tiat是我最早製作的圖片管理軟體，著重於效能以及搜尋功能。
-Tiat使用RocksDB作為主資料庫，在大量的非順序讀取上非常迅速，這也讓他可以在百萬等級的承載量之下依然保持效能。
-此外，我在Tiat中實做了以圖搜圖以及「Draw to search」的功能，讓使用者可以僅藉著朦朧的印象尋找想要的圖片。
-Tiat開發至今已超過兩年，儘管因為v2的開發而暫停更新，每個月仍有數千名使用者持續使用中。
+### [Tiat](https://tiat.app) (2018)
+Tiat is the first software I made, a picture management software that focuses on performance and search.
+Tiat uses RocksDB as the main database, which is very fast on a large number of non-sequential reads, which also allows him to maintain performance under the million-level capacity.
+In addition, I have implemented the functions of "Search by pitcure" and "Draw to search" in Tiat, allowing users to find the pictures they want with only a dim impression.
+Tiat has been developed for more than two years. Although the update is suspended due to the development of v2, thousands of users are still using it every month.
 
 ![Tiat](assets/TiatWeb.jpeg)
 
 * App: `Electron`, `RocksDB`, `Image recognition`
 * Service: `Golang`, `GCP(both Web & CI/CD)`
 
-### [PackPanel](https://packpanel.island68.dev)
-PackPanel是一個實驗性質的作品，試著用機器學習的技術來處理本機檔案分類的問題。
-我建立了一個學習模型以及簡單的UI，當使用者把某些檔案歸類某個集合的時候，PackPanel會分析這些檔案的特徵值並更新模型。
-在下次有新的未分類檔案加入時，PackPanel會試著把它分類到對應的集合。
+### [PackPanel](https://packpanel.island68.dev) (2019)
+PackPanel is an experimental project, trying to use machine learning technology to solve the problem of local file classification.
+I created a learning model and simple UI. When the user classifies certain files into a certain collection, PackPanel will analyze the characteristic values of these files and update the model.
+Next time a new uncategorized file is added, PackPanel will try to classify it into similar collections.
 
 ![PackPanel](assets/PackPanelWeb.jpeg)
 
@@ -67,9 +67,10 @@ Step 1 | Step 2 | Step 3
 
 * `Electron`, `Tensorflow`, `File similarity`
 
-### [Markdium](https://markdium.dev)
-Markdium就如他的名字，是一個把Markdown轉換並發佈到Medium的工具。工程師最常使用的格式是Markdown，而最常使用的平台則是Medium，所以我建構了一個兩者之間的轉橋樑。
-由於Medium並不支援內建的Code highlight，所以Markdium會自動把code block轉換為gist的形式，再嵌入至Medium中。
+### [Markdium](https://markdium.dev) (2019)
+Just like its name, Markdium is a tool for converting and publishing from Markdown to Medium.
+The most commonly used format by developers is Markdown, and the most popular article platform is Medium, so I built a bridge between the two.
+Since Medium does not support the built-in Code highlight, Markdium will automatically convert the code block to Gist and embed into Medium.
 
 ![Markdium](assets/Markdium.jpeg)
 
@@ -80,9 +81,10 @@ Markdown editor | Connect with GitHub | Publish to Medium
 * Front-end: `Next.js`, `Markdown editor and parser`
 * Back-end: `Express`, `GCP(Cloud Run, Cloud function, Cloud SQL)`
 
-### [Tasmap](https://tasmap.app)
+### [Tasmap](https://tasmap.app) (2019~2020)
 Tasmap是一個可客製化的故事地圖。你可以客製化屬於自己的地圖，編寫自己的故事，並且讓地圖跟故事之間互動。
-在2020年發布時，Tasmap在Product Hunt獲得了很高的評價。即使受到COVID-19的影響，Tasmap在過去的一年間，依然為來自數十個國家、數千名的旅行者、在地嚮導以及資料視覺化工作者們提供了一個兼具美觀與實用的故事地圖平台。
+在2020年發布時，Tasmap在Product Hunt獲得了很高的評價。
+即使受到COVID-19的影響，Tasmap在過去的一年間，依然為來自數十個國家、數千名的旅行者、在地嚮導以及資料視覺化工作者們提供了一個兼具美觀與實用的故事地圖平台。
 Tasmap是我的第一個收費產品，除了金流之外，我在這之中也累積了許多關於前端效能，以及色彩設計的經驗。
 
 ![Tasmap](assets/tasmap_demo_0.webp)
@@ -94,7 +96,7 @@ Dark|Light|Sakura|Macha|Hokusai|Hanafuda
 * Front-end: `Next.js`, `PWA`, `MapboxGL`, `Rendering performance(Pixi.js & Konva)`, `Rich text editor`, `Customize map tiles`
 * Back-end: `Express`, `GCP(GAE, GCE, Cloud function)`
 
-### Tiat2
+### Tiat2 (2020~2021)
 Tiat2是一個全新的版本，結合了v1的使用者回饋，在UX設計以及許多方面都更加優化。
 搜尋的部分參考了PackPanel中的AI設計經驗，強化了分類及以圖搜圖的功能，同時也加入了語意分析來強化文字搜尋的部分。
 在Tiat2中，我把效能繁重的部分以Rust或WASM模組取代，讓整體的效能更上一層樓。
