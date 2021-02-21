@@ -61,9 +61,9 @@ Next time a new uncategorized file is added, PackPanel will try to classify it i
 
 ![PackPanel](assets/PackPanelWeb.jpeg)
 
-Step 1 | Step 2 | Step 3
+Create collection | Train it | Classify unknown files
 :---:|:---:|:---:
-![](assets/packpanel_demo_0.webp) | ![](assets/packpanel_demo_1.webp) | ![](assets/packpanel_demo_2.webp)
+![](assets/packpanel_demo_0.jpeg) | ![](assets/packpanel_demo_1.jpeg) | ![](assets/packpanel_demo_2.jpeg)
 
 * `Electron`, `Tensorflow`, `File similarity`
 
@@ -76,7 +76,7 @@ Since Medium does not support the built-in Code highlight, Markdium will automat
 
 Markdown editor | Connect with GitHub | Publish to Medium
 :---:|:---:|:---:
-![](assets/markdium_demo_0.webp) | ![](assets/markdium_demo_1.webp) | ![](assets/markdium_demo_2.webp)
+![](assets/markdium_demo_0.jpeg) | ![](assets/markdium_demo_1.jpeg) | ![](assets/markdium_demo_2.jpeg)
 
 * Front-end: `Next.js`, `Markdown editor and parser`
 * Back-end: `Express`, `GCP(Cloud Run, Cloud function, Cloud SQL)`
@@ -87,11 +87,15 @@ When it was released in 2020, Tasmap was highly rated on Product Hunt.
 Even under the influence of COVID-19, Tasmap has provided a beautiful and practical map platform for thousands of travelers, local guides and data visualization workers from dozens of countries in the past year.
 Tasmap is my first paid product. In addition to payment management, I have also accumulated a lot of experience in front-end performance and color design.
 
-![Tasmap](assets/tasmap_demo_0.webp)
+![Tasmap](assets/tasmap_demo_0.jpeg)
 
 Dark|Light|Sakura|Macha|Hokusai|Hanafuda
 :---:|:---:|:---:|:---:|:---:|:---:
-![](assets/tasmap_demo_1.webp)|![](assets/tasmap_demo_2.webp)|![](assets/tasmap_demo_3.webp)|![](assets/tasmap_demo_4.webp)|![](assets/tasmap_demo_5.webp)|![](assets/tasmap_demo_6.webp)
+![](assets/tasmap_demo_1.jpeg)|![](assets/tasmap_demo_2.jpeg)|![](assets/tasmap_demo_3.jpeg)|![](assets/tasmap_demo_4.jpeg)|![](assets/tasmap_demo_5.jpeg)|![](assets/tasmap_demo_6.jpeg)
+
+Mobile view | Mobile view | Mobile view | Map marks | Customize | Interactive
+:---:|:---:|:---:|:---:|:---:|:---:
+![](assets/tasmap_demo_7.jpeg)|![](assets/tasmap_demo_8.jpeg)|![](assets/tasmap_demo_9.jpeg)|![](assets/tasmap_demo_10.jpeg)|![](assets/tasmap_demo_11.mp4)|![](assets/tasmap_demo_12.mp4)
 
 * Front-end: `Next.js`, `PWA`, `MapboxGL`, `Rendering performance(Pixi.js & Konva)`, `Rich text editor`, `Customize map tiles`
 * Back-end: `Express`, `GCP(GAE, GCE, Cloud function)`

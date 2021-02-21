@@ -1,5 +1,5 @@
 import * as path from "path";
-import {readdir} from "fs-extra";
+import {pathExists, readdir} from "fs-extra";
 import sharp = require("sharp");
 
 let doIt = async ()=> {
@@ -10,12 +10,16 @@ let doIt = async ()=> {
         let ext = path.extname(fileName)
         let filePath = path.resolve(assetsPath, fileName)
 
-        if(ext === ".jpeg") {
+        if(ext !== ".png") {
             continue
         }
 
         let newFileName = fileName.replace(ext, ".jpeg")
         let newFilePath = path.resolve(assetsPath, newFileName)
+
+        if(await pathExists(newFilePath)) {
+            continue
+        }
 
         await sharp(filePath)
             .resize(720, 720, {
