@@ -7,7 +7,7 @@
   "author": "apolkingg8 <apolkingg8@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "toJpeg": "ts-node script/toJpeg.ts"
+    "toWebp": "ts-node script/toWebp.ts"
   },
   "dependencies": {
     "fs-extra": "^9.0.1",

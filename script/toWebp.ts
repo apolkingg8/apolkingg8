@@ -14,7 +14,7 @@ let doIt = async ()=> {
             continue
         }
 
-        let newFileName = fileName.replace(ext, ".jpeg")
+        let newFileName = fileName.replace(ext, ".webp")
         let newFilePath = path.resolve(assetsPath, newFileName)
 
         if(await pathExists(newFilePath)) {
@@ -25,7 +25,7 @@ let doIt = async ()=> {
             .resize(720, 720, {
                 fit: "inside",
             })
-            .jpeg()
+            .webp()
             .toFile(newFilePath)
     }
 }
