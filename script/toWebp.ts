@@ -10,7 +10,7 @@ let doIt = async ()=> {
         let ext = path.extname(fileName)
         let filePath = path.resolve(assetsPath, fileName)
 
-        if(ext !== ".png") {
+        if(ext === ".webp") {
             continue
         }
 

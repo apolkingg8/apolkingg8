@@ -51,6 +51,14 @@ Tiat has been developed for more than two years. Although the update is suspende
 
 ![Tiat](assets/TiatWeb.webp)
 
+Calendar view | Map view | Color filter | Similar image
+:---:|:---:|:---:|:---:
+![](assets/tiat_demo_8.webp) | ![](assets/tiat_demo_0.webp) | ![](assets/tiat_demo_5.webp) | ![](assets/tiat_demo_1.webp)
+
+Draw to search | Find the cat
+:---:|:---:
+![](assets/tiat_demo_2.webp) ![](assets/tiat_demo_3.webp) | ![](assets/tiat_demo_6.webp) ![](assets/tiat_demo_7.webp)
+
 * App: `Electron`, `RocksDB`, `Image recognition`
 * Service: `Golang`, `GCP(both Web & CI/CD)`
 
