@@ -95,7 +95,7 @@ Dark|Light|Sakura|Macha|Hokusai|Hanafuda
 
 Mobile view | Mobile view | Mobile view | Map marks | Customize | Interactive
 :---:|:---:|:---:|:---:|:---:|:---:
-![](assets/tasmap_demo_7.jpeg)|![](assets/tasmap_demo_8.jpeg)|![](assets/tasmap_demo_9.jpeg)|![](assets/tasmap_demo_10.jpeg)|![](assets/tasmap_demo_11.mp4)|![](assets/tasmap_demo_12.mp4)
+![](assets/tasmap_demo_7.jpeg)|![](assets/tasmap_demo_8.jpeg)|![](assets/tasmap_demo_9.jpeg)|![](assets/tasmap_demo_10.jpeg)|![](assets/tasmap_demo_11.gif)|![](assets/tasmap_demo_12.gif)
 
 * Front-end: `Next.js`, `PWA`, `MapboxGL`, `Rendering performance(Pixi.js & Konva)`, `Rich text editor`, `Customize map tiles`
 * Back-end: `Express`, `GCP(GAE, GCE, Cloud function)`
