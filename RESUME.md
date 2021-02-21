@@ -87,7 +87,7 @@ When it was released in 2020, Tasmap was highly rated on Product Hunt.
 Even under the influence of COVID-19, Tasmap has provided a beautiful and practical map platform for thousands of travelers, local guides and data visualization workers from dozens of countries in the past year.
 Tasmap is my first paid product. In addition to payment management, I have also accumulated a lot of experience in front-end performance and color design.
 
-![Tasmap](assets/tasmap_demo_0.jpeg)
+![Tasmap](assets/tasmap_demo_0.webp)
 
 Dark|Light|Sakura|Macha|Hokusai|Hanafuda
 :---:|:---:|:---:|:---:|:---:|:---:
