@@ -17,17 +17,21 @@ List some of my skilled/preferred stuff. Find more `Skill tags` in above section
 ## Job
 
 ### Early career (2011 ~ 2014)
-I like to try new things and take the challenge, so I tried many domains.
+I like to try new things and take the challenge, so I tried many domains, both back-end, front-end, and mobile apps. 
+I built a stock information software on Smart-TV for an investment company, it's a rare experience at that time.
 
 `SmartTV(Samsung & Panasonic)`, `MySQL`, `jQuery, Backbone and other classic stuff`
 
 ### Plustek (2014 ~ 2016)
 Front-end developer. Build [a NAS-like storage system](https://plustek.com/tw/products/file-management-solution/edoc-series/index.php) but focus on documents for companies & schools.
+I took a lot of cross-platform techs (Cordova, NativeScript, React-Native) into our production, and share the experiences in MOPCON a few years later.
 
 `Ionic`, `React Native`, `Front-end`, `JAVA/Obj-c`
 
 ### KKStream (2016 ~ 2017)
-Full-stack developer. Build modularize CMS for digital assets.
+As the only senior developer of the team, my job is designing the architecture for a modular CMS system. 
+Due to we are handling a huge and active system, we need to maintain and migrate it very carefully. 
+I learned a lot about how to working on a large and complex service.
 
 `Next.js`, `GraphQL`, `Golang`, `gRPC`, `AWS`
 
@@ -37,8 +41,9 @@ Full-stack developer. Build CDN services, dashboard, optimize back-end performan
 `GCP`, `WebOS`, `Tizen`, `Backend performance`
 
 ### Indie developer (2019~)
-Currently, I'm an indie developer, working on Tasmap & Tiat2. Check more below.
-
+QCDN is a lean startup team, so I handled many different parts there. 
+The most challenging is to improve backend performance and reduce the GCP cost. 
+I did both. I refactor the backend service to serverless architecture to resolve the performance bottleneck, and also reduced the cost more than 70%.
 
 ## Made
 I love to make something. For practice skill, for the requirement from myself, to show my ideal, or just for fun. You can check some of them on my [PH page](https://www.producthunt.com/@eddiehsu/made).

@@ -12,6 +12,9 @@
     "start": "next start",
     "toWebp": "ts-node script/toWebp.ts"
   },
+  "resolutions": {
+    "csstype": "^2"
+  },
   "dependencies": {
     "csx": "^10.0.2",
     "fs-extra": "^9.0.1",
@@ -25,9 +28,9 @@
     "typestyle": "^2.1.0"
   },
   "devDependencies": {
+    "@types/fs-extra": "^9.0.6",
     "@types/react": "^17.0.2",
     "@types/react-dom": "^17.0.1",
-    "@types/fs-extra": "^9.0.6",
     "@types/sharp": "^0.26.1",
     "ts-node": "^9.1.1",
     "typescript": "^4.1.3"
