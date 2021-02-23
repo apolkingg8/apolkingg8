@@ -7,13 +7,26 @@
   "author": "apolkingg8 <apolkingg8@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
     "toWebp": "ts-node script/toWebp.ts"
   },
   "dependencies": {
+    "csx": "^10.0.2",
     "fs-extra": "^9.0.1",
-    "sharp": "^0.27.0"
+    "mobx": "^6.1.7",
+    "mobx-react": "^7.1.0",
+    "mobx-utils": "^6.0.3",
+    "next": "^10.0.7",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "sharp": "^0.27.0",
+    "typestyle": "^2.1.0"
   },
   "devDependencies": {
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.1",
     "@types/fs-extra": "^9.0.6",
     "@types/sharp": "^0.26.1",
     "ts-node": "^9.1.1",
