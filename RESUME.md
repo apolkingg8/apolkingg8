@@ -56,16 +56,12 @@ Tiat has been developed for more than two years. Although the update is suspende
 
 ![Tiat](assets/TiatWeb.webp)
 
-Calendar view | Map view | Color filter | Similar image
-:---:|:---:|:---:|:---:
-![](assets/tiat_demo_8.webp) | ![](assets/tiat_demo_0.webp) | ![](assets/tiat_demo_5.webp) | ![](assets/tiat_demo_1.webp)
-
-Draw to search | Find the cat
-:---:|:---:
-![](assets/tiat_demo_2.webp) ![](assets/tiat_demo_3.webp) | ![](assets/tiat_demo_6.webp) ![](assets/tiat_demo_7.webp)
-
-* App: `Electron`, `RocksDB`, `Image recognition`
-* Service: `Golang`, `GCP(both Web & CI/CD)`
+* Launch on [Product hunt](https://www.producthunt.com/posts/tiat)
+* Electron app
+* RocksDB
+* Image recognition
+* Similar image search
+* Golang server on GCP
 
 ### [PackPanel](https://packpanel.island68.dev) (2019)
 PackPanel is an experimental project, trying to use machine learning technology to solve the problem of local file classification.
@@ -74,11 +70,10 @@ Next time a new uncategorized file is added, PackPanel will try to classify it i
 
 ![PackPanel](assets/PackPanelWeb.webp)
 
-Create collection | Train it | Classify unknown files
-:---:|:---:|:---:
-![](assets/packpanel_demo_0.webp) | ![](assets/packpanel_demo_1.webp) | ![](assets/packpanel_demo_2.webp)
-
-* `Electron`, `Tensorflow`, `File similarity`
+* Launch on [Product hunt](https://www.producthunt.com/posts/packpanel)
+* Electron app
+* File classification
+* Local ML by Tensorflow
 
 ### [Markdium](https://markdium.dev) (2019)
 Just like its name, Markdium is a tool for converting and publishing from Markdown to Medium.
@@ -87,12 +82,12 @@ Since Medium does not support the built-in Code highlight, Markdium will automat
 
 ![Markdium](assets/Markdium.webp)
 
-Markdown editor | Connect with GitHub | Publish to Medium
-:---:|:---:|:---:
-![](assets/markdium_demo_0.webp) | ![](assets/markdium_demo_1.webp) | ![](assets/markdium_demo_2.webp)
-
-* Front-end: `Next.js`, `Markdown editor and parser`
-* Back-end: `Express`, `GCP(Cloud Run, Cloud function, Cloud SQL)`
+* Launch on [Product hunt](https://www.producthunt.com/posts/markdium)
+* Story on my [Medium post](https://medium.com/@kingapol/medium-in-markdown-without-pain-2785f50c092e)
+* Clean UI design
+* SPA base on Next.js
+* Express backend
+* Host on GCP Cloud Run & Cloud function
 
 ### [Tasmap](https://tasmap.app) (2019~2020)
 Tasmap is a customizable story map. You can customize your own map and write stories on it.
@@ -102,16 +97,14 @@ Tasmap is my first paid product. In addition to payment management, I have also 
 
 ![Tasmap](assets/tasmap_demo_0.webp)
 
-Dark|Light|Sakura|Macha|Hokusai|Hanafuda
-:---:|:---:|:---:|:---:|:---:|:---:
-![](assets/tasmap_demo_1.webp)|![](assets/tasmap_demo_2.webp)|![](assets/tasmap_demo_3.webp)|![](assets/tasmap_demo_4.webp)|![](assets/tasmap_demo_5.webp)|![](assets/tasmap_demo_6.webp)
-
-Mobile view | Mobile view | Mobile view | Map marks | Customize | Interactive
-:---:|:---:|:---:|:---:|:---:|:---:
-![](assets/tasmap_demo_7.webp)|![](assets/tasmap_demo_8.webp)|![](assets/tasmap_demo_9.webp)|![](assets/tasmap_demo_10.webp)|![](assets/tasmap_demo_11.gif)|![](assets/tasmap_demo_12.gif)
-
-* Front-end: `Next.js`, `PWA`, `MapboxGL`, `Rendering performance(Pixi.js & Konva)`, `Rich text editor`, `Customize map tiles`
-* Back-end: `Express`, `GCP(GAE, GCE, Cloud function)`
+* Daily #6 on [Product hunt](https://www.producthunt.com/posts/tasmap)
+* Beautiful design
+* PWA base on Next.js
+* Customizable PWA icon & splash screen
+* Map rendering with MapboxGL, Pixi.js, Konva
+* Medium-like clean rich text editor
+* Customize & self-hosted map tiles
+* Host on GCP with Cloud Function
 
 ### Tiat2 (2020~2021)
 Tiat2 is a brand-new version of Tiat. With the user feedback from v1 and the experience of other products, it is more optimized in UX design, performance and many ways.
@@ -121,8 +114,12 @@ In addition, Tiat2 is developed in a TDD way, although it increases some develop
 
 ![Tiat](assets/tiat2_demo_0.webp)
 
-* App: `Electron`, `Rust/Rust-wasm`, `TypeORM`, `Image recognition`, `File similarity`
-* Service: `GCP(Web & SQL replication)`, `GH action(CI/CD)`
+* WIP
+* Electron app
+* Base on MikroORM
+* Improve performance with Rust & Rust-WASM
+* Image recognition with self-designed algorithm
+* File similarity with Tensorflow
 
 ## Non-technical
 * 10+ years of experience in baseball. A good hitter but terrible fielder.
