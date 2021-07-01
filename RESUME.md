@@ -16,64 +16,51 @@ List some of my skilled/preferred stuff. Find more `Skill tags` in above section
 
 ## Job
 
+### Indie developer (2019~)
+Currently, I'm an indie developer, working on Tasmap & Tiat2. Check more about what I made below.
+
+### QCDN (2018 ~ 2019)
+QCDN is a lean startup team, so I handled many different parts there. 
+The most challenging thing is to improve backend performance and reduce the GCP cost. I did both. 
+I reformed the backend service to a serverless architecture to resolve the performance issues, and also reduced the cost by more than 70%.
+
+`GCP`, `WebOS`, `Tizen`, `Backend performance`
+
+### KKStream (2016 ~ 2017)
+As the only senior developer of the team, I designed the architecture for a modular CMS system and migrate from the legacy one.
+Due to we are handling a large and complex system for Japanese customer, we need to maintain and migrate it very carefully.
+
+`Next.js`, `GraphQL`, `Golang`, `gRPC`, `AWS`
+
+### Plustek (2014 ~ 2016)
+Built a [NAS-like storage system](https://plustek.com/tw/products/file-management-solution/edoc-series/index.php) which focus on business & education.
+I took a lot of cross-platform techs (Cordova, NativeScript, React-Native) into our production, and be a [lecturer in MOPCON](http://mopcon.org/2018/speaker.php?id=9) a few years later.
+
+`Ionic`, `React Native`, `Front-end`, `JAVA/Obj-c`
+
 ### Early career (2011 ~ 2014)
-I like to try new things and take the challenge, so I tried many domains, both back-end, front-end, and mobile apps. 
+I tried many domains, both back-end, front-end, and mobile apps. 
 I built a stock information software on Smart-TV for an investment company, it's a rare experience at that time.
 
 `SmartTV(Samsung & Panasonic)`, `MySQL`, `jQuery, Backbone and other classic stuff`
 
-### Plustek (2014 ~ 2016)
-Front-end developer. Build [a NAS-like storage system](https://plustek.com/tw/products/file-management-solution/edoc-series/index.php) but focus on documents for companies & schools.
-I took a lot of cross-platform techs (Cordova, NativeScript, React-Native) into our production, and share the experiences in MOPCON a few years later.
-
-`Ionic`, `React Native`, `Front-end`, `JAVA/Obj-c`
-
-### KKStream (2016 ~ 2017)
-As the only senior developer of the team, my job is designing the architecture for a modular CMS system. 
-Due to we are handling a huge and active system, we need to maintain and migrate it very carefully. 
-I learned a lot about how to working on a large and complex service.
-
-`Next.js`, `GraphQL`, `Golang`, `gRPC`, `AWS`
-
-### QCDN (2018 ~ 2019)
-Full-stack developer. Build CDN services, dashboard, optimize back-end performance and reduce GCP cost.
-
-`GCP`, `WebOS`, `Tizen`, `Backend performance`
-
-### Indie developer (2019~)
-QCDN is a lean startup team, so I handled many different parts there. 
-The most challenging is to improve backend performance and reduce the GCP cost. 
-I did both. I refactor the backend service to serverless architecture to resolve the performance bottleneck, and also reduced the cost more than 70%.
-
 ## Made
-I love to make something. For practice skill, for the requirement from myself, to show my ideal, or just for fun. You can check some of them on my [PH page](https://www.producthunt.com/@eddiehsu/made).
+I love to make something. For practice skill, for the self requirement, for display my ideal, or just for fun. Please check some of them on my [PH page](https://www.producthunt.com/@eddiehsu/made).
 
-### [Tiat](https://tiat.app) (2018)
-Tiat is the first software I made, a picture management software that focuses on performance and search.
-Tiat uses RocksDB as the main database, which is very fast on a large number of non-sequential reads, which also allows him to maintain performance under the million-level capacity.
-In addition, I have implemented the functions of "Similar image" and "Draw to search" in Tiat, allowing users to find the pictures they want with only a dim impression.
-Tiat has been developed for more than two years. Although the update is suspended due to the development of v2, thousands of users are still using it every month.
+### Tiat2 (2020~now)
+Tiat2 is a brand-new version of Tiat. With the user feedback from v1 and the experience of other products, it is more optimized in UX design, performance and many ways.
+As the matter of experience of PackPanel, the "Similar image" and "Draw to search" feature has been improved a lot.
+In Tiat2, I replaced the heavy-loading JS modules with Rust and WASM. It's improved 3x ~ 10x performance.
+In addition, Tiat2 is developed in a TDD way, although it increases some development time, it also makes it very stable and reliable.
 
-![Tiat](assets/TiatWeb.webp)
+![Tiat](assets/tiat2_demo_0.webp)
 
-* Launch on [Product hunt](https://www.producthunt.com/posts/tiat)
+* WIP
 * Electron app
-* RocksDB
-* Image recognition
-* Similar image search
-* Golang server on GCP
-
-### [PackPanel](https://packpanel.island68.dev) (2019)
-PackPanel is an experimental project, trying to use machine learning technology to solve the problem of local file classification.
-I created a learning model and simple UI. When the user classifies certain files into a certain collection, PackPanel will analyze the characteristic values of these files and update the model.
-Next time a new uncategorized file is added, PackPanel will try to classify it into similar collections.
-
-![PackPanel](assets/PackPanelWeb.webp)
-
-* Launch on [Product hunt](https://www.producthunt.com/posts/packpanel)
-* Electron app
-* File classification
-* Local ML by Tensorflow
+* Base on MikroORM
+* Improve performance with Rust & Rust-WASM
+* Image recognition with self-designed algorithm
+* File similarity with Tensorflow
 
 ### [Markdium](https://markdium.dev) (2019)
 Just like its name, Markdium is a tool for converting and publishing from Markdown to Medium.
@@ -106,20 +93,32 @@ Tasmap is my first paid product. In addition to payment management, I have also 
 * Customize & self-hosted map tiles
 * Host on GCP with Cloud Function
 
-### Tiat2 (2020~2021)
-Tiat2 is a brand-new version of Tiat. With the user feedback from v1 and the experience of other products, it is more optimized in UX design, performance and many ways.
-As the matter of experience of PackPanel, the "Similar image" and "Draw to search" feature has been improved a lot.
-In Tiat2, I replaced the heavy-loading JS modules with Rust and WASM. It's improved 3x ~ 10x performance.
-In addition, Tiat2 is developed in a TDD way, although it increases some development time, it also makes it very stable and reliable.
+### [PackPanel](https://packpanel.island68.dev) (2019)
+PackPanel is an experimental project, trying to use machine learning technology to solve the problem of local file classification.
+I created a learning model and simple UI. When the user classifies certain files into a certain collection, PackPanel will analyze the characteristic values of these files and update the model.
+Next time a new uncategorized file is added, PackPanel will try to classify it into similar collections.
 
-![Tiat](assets/tiat2_demo_0.webp)
+![PackPanel](assets/PackPanelWeb.webp)
 
-* WIP
+* Launch on [Product hunt](https://www.producthunt.com/posts/packpanel)
 * Electron app
-* Base on MikroORM
-* Improve performance with Rust & Rust-WASM
-* Image recognition with self-designed algorithm
-* File similarity with Tensorflow
+* File classification
+* Local ML by Tensorflow
+
+### [Tiat](https://tiat.app) (2018)
+Tiat is a picture management software that focuses on performance and search. 
+I choose RocksDB as the main database, which is very fast on a large number of non-sequential reads, and also handles maintaining performance under the million-level capacity. 
+In addition, I have implemented the functions of "Similar image" and "Draw to search" in Tiat, so that users can find the pictures they want with only a dim impression. 
+Tiat has been developed for more than two years. Although the update is suspended due to the development of v2, thousands of users are still using it every month.
+
+![Tiat](assets/TiatWeb.webp)
+
+* Launch on [Product hunt](https://www.producthunt.com/posts/tiat)
+* Electron app
+* RocksDB
+* Image recognition
+* Similar image search
+* Golang server on GCP
 
 ## Non-technical
 * 10+ years of experience in baseball. A good hitter but terrible fielder.
