@@ -1,23 +1,38 @@
 # Resume
 
-Hi, I'm Eddie Hsu, an indie developer in Taiwan. 8+ year experiences, skilled in web & cross-platform apps.
+Hi, I'm Eddie Hsu, an indie developer in Taiwan. 8+ year experiences, skilled in web full-stack & cross-platform apps.
 * Contact Me: [apolkingg8@gmail.com](mailto:apolkingg8@gmail.com)
 * Product Hunt: https://www.producthunt.com/@eddiehsu/made
 * Medium: https://medium.com/@kingapol
 
 ## Skill
 List some of my skilled/preferred stuff. Find more `Skill tags` in above section.
-* Core pick: React, MobX, TypeScript, Rust
-* Front-end: Next.js, Material-ui
-* Back-end: Express, GraphQL, TypeORM
+* Core pick: React, MobX, TypeScript, Rust(Neon/WASM)
+* Front-end: Next.js, Material-ui, Ant design, PWA
+* Back-end: Express, GraphQL, NestJS, TypeORM, MikroORM
+* DevOps: Docker, GHAction
 * Cross-platform: Electron, React Native, Tizen, WebOS
-* Service: Usually use GCP, some experience in AWS
+* Cloud Service: Usually use GCP, some experience in AWS
 
 
 ## Job
 
-### Indie developer (2019~)
-Currently, I'm an indie developer, working on Tasmap & Tiat2. Check more about what I made below.
+### SamaTech (2021~)
+Currently, I'm a software architect in SamaTech, which is a startup working on blockchain and open-source projects. 
+You can check the projects I'm working on: 
+* [SolomonDefi](https://github.com/SolomonDefi/solomon-monorepo) 
+* [image-api](https://github.com/samatechtw/image-api)
+
+`ethers.js`, `Docker`, `Skaffold`, `Nx`, `NestJS`
+
+### Indie developer (2019~2021)
+I have many ideas and passion, so I become an indie developer to build my projects.
+Please check more about what I made in below section.
+* [Tiat2](https://github.com/apolkingg8/apolkingg8/blob/master/RESUME.md#tiat2-2020now)
+* [Tasmap](https://github.com/apolkingg8/apolkingg8/blob/master/RESUME.md#tasmap-20192020)
+* [Markdium](https://github.com/apolkingg8/apolkingg8/blob/master/RESUME.md#markdium-2019)
+* [PackPanel](https://github.com/apolkingg8/apolkingg8/blob/master/RESUME.md#packpanel-2019)
+* [Tiat](https://github.com/apolkingg8/apolkingg8/blob/master/RESUME.md#tiat-2018)
 
 ### QCDN (2018 ~ 2019)
 QCDN is a lean startup team, so I handled many different parts there. 
