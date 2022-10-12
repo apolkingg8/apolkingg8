@@ -1,9 +1,9 @@
 # Resume
 
-Hi, I'm Eddie Hsu, an indie developer in Taiwan. 8+ year experiences, skilled in web full-stack & cross-platform apps.
+Hi, I'm Eddie Hsu, a full-stack developer in Taiwan. I have 10 years of experience, skilled in web application development, both Front-end, Back-end, and especially cross-platform development.
 * Contact Me: [apolkingg8@gmail.com](mailto:apolkingg8@gmail.com)
-* Product Hunt: https://www.producthunt.com/@eddiehsu/made
-* Medium: https://medium.com/@kingapol
+* Product Hunt: [https://www.producthunt.com/@eddiehsu](https://www.producthunt.com/@eddiehsu)
+* Medium: [https://medium.com/@kingapol](https://medium.com/@kingapol)
 
 ## Skill
 List some of my skilled/preferred stuff. Find more `Skill tags` in above section.
@@ -17,9 +17,10 @@ List some of my skilled/preferred stuff. Find more `Skill tags` in above section
 
 ## Job
 
-### SamaTech (2021~)
-Currently, I'm a software architect in SamaTech, which is a startup working on blockchain and open-source projects. 
-You can check the projects I'm working on: 
+### SamaTech (2021~2022)
+As a software architect, my main task is to analyze the project and design the architecture. I designed
+the main architecture of SolomonDefi and image-api and implemented their backends. Both of them
+are open source, you can check them out on GitHub.
 * [SolomonDefi](https://github.com/SolomonDefi/solomon-monorepo) 
 * [image-api](https://github.com/samatechtw/image-api)
 
