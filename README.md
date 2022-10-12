@@ -14,5 +14,3 @@ I'm Eddie Hsu, an indie developer in Taiwan, build cross-platform apps. Love bas
 ### 👨‍💻️ Code
 [![Typescript Badge](https://img.shields.io/badge/TypeScript-blue?style=flat-square&logo=typescript&logoColor=white)]()
 [![Rust Badge](https://img.shields.io/badge/Rust-B7410E?style=flat-square&logo=rust&logoColor=white)]()
-
-[![Github stats](https://github-readme-stats.vercel.app/api?username=apolkingg8&count_private=true&show_icons=true&theme=dracula)](https://github.com/apolkingg8)
