@@ -10,6 +10,7 @@ I'm Eddie Hsu, an indie developer in Taiwan, build cross-platform apps. Love bas
 * 🖼 [Tiat](https://tiat.app/) - A simple and powerful image organizer.
 * ✒ [Markdium](https://markdium.dev/) - Write Medium post in Markdown without pain.
 * 🎃 [PackPanel](https://packpanel.island68.dev/) - An file classifier with local trainable AI.
+* 💖 Tiat2 - Coming soon.
 
 ### 👨‍💻️ Code
 [![Typescript Badge](https://img.shields.io/badge/TypeScript-blue?style=flat-square&logo=typescript&logoColor=white)]()
