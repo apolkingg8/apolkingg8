@@ -1,9 +1,9 @@
 
 ### 🐶 Hello!
-I'm Eddie Hsu, an indie developer from Taiwan, now living in Tokyo. Build cross-platform apps. Love baseball ⚾. 
+I'm Eddie Hsu, an indie developer from Taiwan, now living in Tokyo. Build good apps. Love cooking and baseball. 
 
 ### ✨ Made
-* 🗺️ [Tasmap](https://tasmap.app/) - Your story with a beautiful interactive map.
+* 🗺️ [Tasmap](https://tasmap.app/) - Create your own Maps.
 * 🖼 [Tiat](https://tiat.app/) - A simple and powerful image organizer.
 * ✒ [Markdium](https://markdium.dev/) - Write Medium post in Markdown without pain.
 * 🎃 [PackPanel](https://packpanel.island68.dev/) - An file classifier with local trainable AI.
