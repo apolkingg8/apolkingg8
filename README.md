@@ -1,6 +1,6 @@
 
 ### 🐶 Hello!
-I'm Eddie Hsu, an indie developer from Taiwan, now living in Tokyo. Build good apps. Love cooking and baseball. 
+I'm Eddie Hsu, an indie developer from Taiwan, now living in Japan. Build good apps, love cooking and baseball. 
 
 ### ✨ Made
 * 🗺️ [Tasmap](https://tasmap.app/) - Create your own Maps.
